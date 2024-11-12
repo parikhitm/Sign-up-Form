@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+#left-side {
+    background-image: url(./images/sign-up\ form\ image.jpg);
+}
+body {
+    padding: 0 230px;
+    margin: 0 auto;
+    text-align: center;
+    width: 70vw;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+#left-side {
+    width: 40%;
+    height: 100vh;
+    z-index: 1;
+}
+
+#right-side {
+    width: 60%;
+    background-color: rgba(245, 245, 245, 0.973);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#logo-section {
+    display: flex;
+    background-color: rgb(31 30 30/ 0.45);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 240px;
+    width: 100%;
+    height: 110px;
+}
+#logo-section img {
+    width: 75px;
+    height: 90px;
+    z-index: 1;
+}
+
+#logo-section h1 {
+    font-family: Norse-Bold, sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+#left-side p {
+    position: relative;
+    top: 570px;
+    font-size: 14px;
+    color: white;
+}
+
+#left-side a {
+    color: white;
+}
+
+#up-right {
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    padding: 40px 100px 30px 30px;
+}
+
+#up-right p {
+    font-size: 19.5px;
+    font-weight: 600;
+}
+
+#mid-right {
+    height: 33vh;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    box-shadow: 0 -5px 1px -3px rgba(245, 245, 245, 0.973),
+                0 5px 20px 5px rgb(197, 196, 196);
+}
+
+#mid-right h2 {
+    font-size: 22px;
+    text-align: left;
+}
+
+#mid-right form label {
+ font-size: 11px;
+ font-weight: bold;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    height: 27px;
+}
+
+input[type="password"]:invalid {
+    border-color: #ef4444;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+#a-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.form-row {
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+}
+
+#down-right {
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0.3rem;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 150px;
+}
+
+#down-right button {
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    background-color: #529c11;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 40%;
+    padding: 12px 25px;
+}
+
+#down-right p {
+    font-size: 17px;
+    font-weight: 550;
+}
+
+#down-right p a {
+    color: green;
+    text-decoration: none;
+}
+
