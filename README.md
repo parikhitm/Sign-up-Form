@@ -22,4 +22,4 @@ The form is minimalistic and user-friendly, featuring a natural, fern-themed bac
  - HTML: For the structure of the form.
  - CSS: For styling, including background image, layout, and form alignment. Flexbox and grid used.
 
- You can use this Sign up Form on This URL: https://parikhitm.github.com//Sign-up-Form (This is a demo form, you can't send any data to this form.)
+ You can use this Sign up Form on This URL: https://parikhitm.github.io/Sign-up-Form/ (This is a demo form, you can't send any data to this form.)
